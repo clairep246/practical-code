@@ -1,0 +1,7 @@
+1 Able to handle AdminArrivalEvent
+2 Able to handle TicketArrivalEvent
+3 Able to handle single admin processing the tickets
+4 Able to handle multiple admins processing the tickets
+5 Able to handle choosing higher priority tickets
+6 Able to handle CongestionEvent
+7 Able to handle all events

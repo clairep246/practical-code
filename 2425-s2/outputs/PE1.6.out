@@ -1,0 +1,9 @@
+0.500 T100 submitted RT: [ 0:Q0 [ ], 1:Q1 [ ] ]
+1.000 T101 submitted RT: [ 0:Q0 [ T100 ], 1:Q1 [ ] ]
+1.000 T101 dropped: Q0 is congested
+2.000 A123 arrived RT: [ 0:Q0 [ T100 ], 1:Q1 [ ] ]
+2.200 A123 picked up T100 RT: [ 0:Q0 [ ], 1:Q1 [ ] ]
+3.200 T102 submitted RT: [ 0:Q0 [ ], 1:Q1 [ ] ]
+3.200 T100 processed RT: [ 0:Q0 [ ], 1:Q1 [ T102 ] ]
+3.400 A123 picked up T102 RT: [ 0:Q0 [ ], 1:Q1 [ ] ]
+4.400 T102 processed RT: [ 0:Q0 [ ], 1:Q1 [ ] ]

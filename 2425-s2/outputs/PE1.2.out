@@ -1,0 +1,4 @@
+0.500 T100 submitted RT: [ 0:Q0 [ ], 1:Q1 [ ] ]
+1.200 T101 submitted RT: [ 0:Q0 [ T100 ], 1:Q1 [ ] ]
+1.400 T102 submitted RT: [ 0:Q0 [ T100 ], 1:Q1 [ T101 ] ]
+1.500 T103 submitted RT: [ 0:Q0 [ T100 T102 ], 1:Q1 [ T101 ] ]
