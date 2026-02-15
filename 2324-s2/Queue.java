@@ -89,7 +89,7 @@ class Queue<T> {
    *
    * @return true if the queue is full; false otherwise.
    */
-  boolean isFull() {
+  public boolean isFull() {
     return (this.len == this.maxSize);
   }
 
@@ -98,7 +98,7 @@ class Queue<T> {
    *
    * @return true if the queue is empty; false otherwise.
    */
-  boolean isEmpty() {
+  public boolean isEmpty() {
     return (this.len == 0);
   }
 

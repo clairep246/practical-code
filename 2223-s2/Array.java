@@ -2,7 +2,7 @@
 class Array<T> {
   private T[] array;
 
-  Array(int size) {
+  public Array(int size) {
     // The only way we can put an object into the array is through
     // the method set() and we only put an object of type T inside.
     // So it is safe to cast `Object[]` to `T[]`.
