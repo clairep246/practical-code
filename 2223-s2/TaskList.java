@@ -33,7 +33,7 @@ class TaskList {
     int i = 0;
     while (sc.hasNext()) {
       String text = sc.nextLine().trim();
-      String arguments[] = text.split(",");
+      String[] arguments = text.split(",");
       array.set(i, createTask(arguments));
       i = i + 1;
     }
@@ -42,7 +42,7 @@ class TaskList {
   private Task createTask(String[] args) throws WrongTaskTypeException { 
     String description = args[1];
     int type = Integer.parseInt(args[0]);
-    Task t = null;
+    Task t;
     if (type == TaskList.TODO) {
       t = new AnytimeTask(description);
 
@@ -64,7 +64,7 @@ class TaskList {
   @Override
   public String toString() {
     String s = "";
-    int i = 0;
+    int i;
     for (i = 0; i < array.length(); i++) {
       s = s + "\n" + array.get(i);
     }

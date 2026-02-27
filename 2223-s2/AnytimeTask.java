@@ -1,20 +1,20 @@
 public class AnytimeTask extends Task {
-    AnytimeTask(String description) {
-      super(description);
-    }
+  public AnytimeTask(String description) {
+    super(description);
+  }
 
-    @Override
-    public boolean isDueToday() {
-       return false;
-    }
+  @Override
+  public boolean isDueToday() {
+    return false;
+  }
 
-    @Override
-    public int getRewardPoints() {
-       return 0;
-    }
+  @Override
+  public int getRewardPoints() {
+    return 0;
+  }
 
-    @Override 
-    public void remind() {
-        // do nothing
-    }
+  @Override 
+  public void remind() {
+    // do nothing
+  }
 }

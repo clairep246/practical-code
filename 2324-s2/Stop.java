@@ -15,6 +15,7 @@ class Stop {
     return queue.enq(p);
   }
 
+  @Override
   public String toString() {
     return "COM" + this.id + " " + this.queue;
   }

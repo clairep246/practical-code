@@ -1,5 +1,5 @@
 class DepartureEvent extends Event {
-  Passenger p;
+  private Passenger p;
 
   public DepartureEvent(double time, Passenger p) {
     super(time);
